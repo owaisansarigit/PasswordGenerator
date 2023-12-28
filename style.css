@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  /* background-color: aquamarine; */
+}
+.main {
+  top: 2rem;
+  position: relative;
+  margin: auto;
+  height: 30rem;
+  width: 30rem;
+  border: 1px solid rgb(182, 174, 174);
+  border-radius: 0.5rem;
+  background-color: rgba(89, 123, 103, 0.193);
+}
+#pass-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  height: 4rem;
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.left {
+  margin-left: 5rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  height: 2rem;
+}
+.right {
+  position: absolute;
+  right: 5rem;
+}
+
+#btn {
+  margin-left: 35%;
+  margin-top: 2rem;
+  height: 2.5rem;
+  width: 10rem;
+  font-size: 1.rem;
+  font-weight: bold;
+  bottom: 2rem;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all;
+}
+#btn:hover {
+  background-color: rgb(187, 242, 207);
+}
+#total-char {
+  width: 2.5rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+#h3 {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 5rem;
+  text-decoration: underline;
+}
+input {
+  height: 1.5rem;
+  width: 2rem;
+  font-size: 1rem;
+}
